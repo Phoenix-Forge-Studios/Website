@@ -258,6 +258,10 @@ section + section {
   max-width: 32ch;
 }
 
+.section-vision .section-head {
+  justify-content: center;
+}
+
 /* ---------- Games grid / empty state ---------- */
 
 .games-grid {
@@ -376,8 +380,9 @@ section + section {
   font-weight: 600;
   line-height: 1.25;
   letter-spacing: -0.01em;
-  max-width: 24ch;
-  margin: 0;
+  margin: 0 auto;
+  text-align: center;
+  text-wrap: balance;
   color: var(--ink);
 }
 
