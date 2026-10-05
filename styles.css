@@ -367,6 +367,27 @@ section + section {
   margin-bottom: 0;
 }
 
+
+/* ---------- Vision statement ---------- */
+
+.vision {
+  font-family: var(--font-display);
+  font-size: clamp(1.6rem, 3.5vw, 2.6rem);
+  font-weight: 600;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+  max-width: 24ch;
+  margin: 0;
+  color: var(--ink);
+}
+
+.vision-accent {
+  background: var(--forge-gradient);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
 /* ---------- Contact ---------- */
 
 .contact-grid {
